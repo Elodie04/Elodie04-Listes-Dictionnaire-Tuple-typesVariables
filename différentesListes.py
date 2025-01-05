@@ -1,48 +1,66 @@
-# #Dictionnaire
-# fruits = {
-#     "pomme":"rouge","banane":"jaune","orange":"orange"
-# }
+#Dictionnaire 
+fruits = {
+    "pomme":"rouge","banane":"jaune","orange":"orange"
+}
 
-# fruits["kiwi"] = "vert"
+#Ajout d'un nouveau fruit 
+fruits["kiwi"] = "vert"
 
-# couleur_banane = fruits["banane"]
+#Ajout d'une nouvelle valeur
+couleur_banane = fruits["banane"]
 
-# fruits["pomme"] = "vert"
+#Ajout d'un nouveau fruit 
+fruits["pomme"] = "vert"
 
-# del fruits["banane"]
+#Suppression du fruit
+del fruits["banane"]
 
-# print(fruits.keys())
+#Affichage des cles du dictionnaire
+print(fruits.keys())
 
-#  #Utilisation de plusieurs types de variables
-# nom = "Elodie"
-# age = 29
-# taille = 1.69
-# est_etudiant = True
+# Autre exercice #
 
-# print(f"Je m'appelle {nom} j'ai {age} ans, je mesure {taille} et je suis {est_etudiant} !")
-# print(type(nom))
-# print(type(age))
-# print(type(taille))
-# print(type(est_etudiant))
+ #Utilisation de plusieurs types de variables
+nom = "Elodie"
+age = 29
+taille = 1.69
+est_etudiant = True
+
+print(f"Je m'appelle {nom} j'ai {age} ans, je mesure {taille} et je suis {est_etudiant} !")
+print(type(nom))
+print(type(age))
+print(type(taille))
+print(type(est_etudiant))
 
 
-# #Liste
-# fruits = [
-#     "pomme","banane", "orange"
-# ]
+#Liste
+fruits = [
+    "pomme","banane", "orange"
+]
 
-# fruits.append ("kiwi")
-# fruits.remove ("orange")
+#Ajout d'un nouveau fruits
+fruits.append ("kiwi")
 
-# fruits[1] = "ananas"
+#Suppression d'un fruit
+fruits.remove ("orange")
 
-# print("len.fruits")
+#Changement de fruits du second élement de la liste par ananas
+fruits[1] = "ananas"
 
-# fruits.sort()
-# print(fruits)
+#Affichage de la longueur de la liste
+print("len.fruits")
+
+#On trie les elements par ordre alphabéthique
+fruits.sort()
+
+#On réaffiche pour voir les changements
+print(fruits)
+
+# Autre exercice #
 
 #Tuple
 mon_tuple = (0, 2, 99, 45, 1, 77, 63, 41, 21)
-tuple_croissant = tuple(sorted(mon_tuple))
+tuple_croissant = tuple(sorted(mon_tuple)) #Pour trier dans l'ordre croissant
 print(tuple_croissant)
+
 
